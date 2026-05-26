@@ -123,7 +123,7 @@ For a consistent, pre-configured environment with all dependencies:
 
 ```powershell
 # Clone the repository
-git clone https://github.com/dhangerkapil/agentic-ai-immersion-day.git
+git clone https://github.com/lifesawesome/agentic-ai-immersion.git
 cd agentic-ai-immersion-day
 
 # Verify Python version
