@@ -35,10 +35,11 @@ ipykernel>=6.29.0
 
 # Core + Azure AI integration
 # Keep Agent Framework packages on the same stable version to avoid import mismatches.
-agent-framework-core==1.0.1
+agent-framework-core==1.6.0
 agent-framework-openai==1.0.1
 agent-framework-foundry==1.0.1
 agent-framework-azure-ai --pre
+agent-framework-orchestrations --pre
 
 # =============================================================================
 # Redis support for distributed sessions

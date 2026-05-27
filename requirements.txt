@@ -5,12 +5,13 @@
 #    pip-compile --allow-unsafe --output-file=requirements.txt --strip-extras requirements.in
 agent-framework-azure-ai==1.0.0rc6
     # via -r requirements.in
-agent-framework-core==1.0.1
+agent-framework-core==1.6.0
     # via
     #   -r requirements.in
     #   agent-framework-azure-ai
     #   agent-framework-foundry
     #   agent-framework-openai
+    #   agent-framework-orchestrations
     #   agent-framework-redis
 agent-framework-foundry==1.0.1
     # via -r requirements.in
@@ -18,6 +19,8 @@ agent-framework-openai==1.0.1
     # via
     #   -r requirements.in
     #   agent-framework-foundry
+agent-framework-orchestrations==1.0.0rc2
+    # via -r requirements.in
 agent-framework-redis==1.0.0b260330
     # via -r requirements.in
 aiohappyeyeballs==2.6.1
